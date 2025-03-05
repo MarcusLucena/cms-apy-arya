@@ -8,6 +8,7 @@ import { CategoriesModule } from './categories/categories.module';
 import { PlatformDataModule } from './platform-data/platform-data.module';
 import { ImagesModule } from './images/images.module';
 import { SettingsModule } from './settings/settings.module';
+import { AuthModule } from './auth/auth.module';
 
 @Module({
   imports: [
@@ -27,6 +28,7 @@ import { SettingsModule } from './settings/settings.module';
     PlatformDataModule,
     ImagesModule,
     SettingsModule,
+    AuthModule,
   ],
   controllers: [AppController],
   providers: [AppService],
