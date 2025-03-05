@@ -7,6 +7,7 @@ import { PostsModule } from './posts/posts.module';
 import { CategoriesModule } from './categories/categories.module';
 import { PlatformDataModule } from './platform-data/platform-data.module';
 import { ImagesModule } from './images/images.module';
+import { SettingsModule } from './settings/settings.module';
 
 @Module({
   imports: [
@@ -25,6 +26,7 @@ import { ImagesModule } from './images/images.module';
     CategoriesModule,
     PlatformDataModule,
     ImagesModule,
+    SettingsModule,
   ],
   controllers: [AppController],
   providers: [AppService],
