@@ -6,6 +6,7 @@ import { UsersModule } from './users/users.module';
 import { PostsModule } from './posts/posts.module';
 import { CategoriesModule } from './categories/categories.module';
 import { PlatformDataModule } from './platform-data/platform-data.module';
+import { ImagesModule } from './images/images.module';
 
 @Module({
   imports: [
@@ -23,6 +24,7 @@ import { PlatformDataModule } from './platform-data/platform-data.module';
     PostsModule,
     CategoriesModule,
     PlatformDataModule,
+    ImagesModule,
   ],
   controllers: [AppController],
   providers: [AppService],
