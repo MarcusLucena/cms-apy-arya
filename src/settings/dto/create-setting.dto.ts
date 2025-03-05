@@ -1,1 +1,5 @@
-export class CreateSettingDto {}
+export class CreateSettingDto {
+  maintenanceMode: boolean;
+  contactEmailOn: boolean;
+  whatsappOn: boolean;
+}
